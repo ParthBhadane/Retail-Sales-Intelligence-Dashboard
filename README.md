@@ -1,62 +1,55 @@
 # Retail Sales Intelligence Dashboard (Excel)
 
-## Overview
+![Dashboard Preview](dashboard-1.png)
 
-This project is an interactive **Retail Sales Intelligence Dashboard** built using Microsoft Excel.
-The goal of the project is to analyze retail sales data and transform raw transaction data into meaningful business insights.
+## Project Overview
 
-Using Excel features such as **Power Query, Pivot Tables, formulas, and interactive slicers**, the dashboard helps understand sales trends, regional performance, and product profitability.
+This project presents an interactive retail sales dashboard built using Microsoft Excel.
+The goal of the project is to analyze retail sales data and transform raw transactional data into meaningful insights that help understand sales performance and profitability.
 
-The dataset used is the well-known **Superstore dataset**, which contains approximately 9,000 retail transactions.
+Using Excel tools such as Power Query, Pivot Tables, formulas, charts, and slicers, the dataset was cleaned, analyzed, and converted into an interactive dashboard that allows users to explore sales performance from different perspectives.
+
+The dataset used in this project is the Superstore dataset, which contains around 9,000 retail transactions.
 
 ---
 
-# Dataset
+## Dataset Description
 
-The dataset contains sales transaction records including:
+The dataset contains retail sales records with information such as:
 
 * Order ID
 * Order Date
 * Customer Segment
 * Region
-* Product Category & Sub-Category
+* Product Category and Sub-Category
 * Sales
 * Quantity
 * Profit
 
-These fields allow analysis of **revenue performance, customer segments, and regional sales trends**.
+These fields allow analysis of sales trends, regional performance, and product profitability.
 
 ---
 
-# Workbook Structure
+## Project Workflow
 
-## 1. Raw_Data
+### 1. Data Preparation
 
-This sheet contains the **original dataset** imported into Excel without any modifications.
-It serves as the base data source for the project.
+Data cleaning and transformation were performed using Power Query.
 
----
+The main steps included:
 
-## 2. Clean_Data
+* Removing duplicate records
+* Correcting data types such as dates and numeric values
+* Cleaning text fields
+* Creating a calculated column called Shipping Days
 
-Data cleaning was performed using **Power Query** to prepare the dataset for analysis.
-
-Main steps performed:
-
-* Removed duplicate rows
-* Corrected data types (dates, numbers, text)
-* Trimmed and cleaned text fields
-* Created a new calculated column: **Shipping Days**
-
-This step ensures the dataset is consistent and analysis-ready.
+This step ensured the dataset was clean and ready for analysis.
 
 ---
 
-## 3. KPI
+### 2. KPI Calculation
 
-This sheet calculates important business metrics using Excel formulas.
-
-Key metrics include:
+Key business metrics were calculated using Excel formulas to summarize overall sales performance.
 
 Total Sales
 =SUM(Superstore_Data[Sales])
@@ -76,81 +69,77 @@ Profit Margin
 Total Quantity Sold
 =SUM(Superstore_Data[Quantity])
 
-These KPIs summarize the overall performance of the business.
+These metrics provide a quick overview of business performance.
 
 ---
 
-## 4. Pivot_Analysis
+### 3. Data Analysis
 
-Pivot tables were created to perform deeper analysis of the data.
+Pivot Tables were used to analyze the dataset from different perspectives, including:
 
-The following analyses were performed:
+* Sales by product category
+* Sales by region
+* Monthly sales trends
+* Profit by customer segment
 
-* Sales by Product Category
-* Sales by Region
-* Monthly Sales Trend
-* Top Performing Products
-* Profit by Customer Segment
-
-These pivot tables act as the **data engine behind the dashboard visualizations**.
+These pivot tables act as the analytical base for the dashboard.
 
 ---
 
-## 5. Dashboard
+### 4. Dashboard Development
 
-The final sheet presents an **interactive Excel dashboard** that summarizes the analysis.
+An interactive Excel dashboard was created to present the analysis visually.
 
 The dashboard includes:
 
 * KPI summary cards
-* Sales vs Profit by Category
-* Sales vs Profit by Region
-* Monthly Sales Trend chart
-* Interactive slicers for filtering by:
+* Sales vs profit by category
+* Regional sales performance
+* Monthly sales trend
+* Interactive slicers for filtering by segment, region, and category
 
-  * Customer Segment
-  * Region
-  * Product Category
-
-Users can filter the dashboard dynamically to explore the data from different perspectives.
+The slicers allow users to interact with the dashboard and view different insights dynamically.
 
 ---
 
-# Key Insights
+## Key Insights
 
-Some of the insights discovered from the analysis include:
+Some insights discovered from the analysis include:
 
-• The **Technology category** generates the highest revenue
-• The **West region** contributes the highest profit
-• Higher discount levels significantly reduce profit margins
-• The **Corporate segment** shows the highest average order value
+* The Technology category generates the highest revenue
+* The West region contributes the highest profit
+* Higher discount levels tend to reduce profit margins
+* The Corporate segment has the highest average order value
 
-These insights demonstrate how Excel dashboards can support **data-driven decision making**.
+These insights show how data analysis can support better business decisions.
 
 ---
 
-# Skills Demonstrated
+## Skills Demonstrated
 
-This project showcases the following data analytics skills:
+This project demonstrates the following skills:
 
 * Microsoft Excel
-* Power Query (Data Cleaning)
+* Power Query
 * Pivot Tables
+* Data Cleaning
 * Data Visualization
 * KPI Analysis
-* Interactive Dashboards
-* Business Insight Generation
+* Dashboard Development
 
 ---
 
-# Project Outcome
+## How to Use the Project
 
-This project demonstrates how Excel can be used as a **powerful business intelligence tool** to transform raw retail sales data into actionable insights through data cleaning, analysis, and visualization.
+1. Download the Excel file from this repository
+2. Open the file in Microsoft Excel
+3. If Excel opens the file in Protected View, click Enable Editing
+4. Use the slicers on the dashboard to explore the data interactively
 
 ---
 
-# Author
+## Author
 
-**Parth Bhadane**
+Parth Bhadane
 
-Aspiring Data Analyst focused on building practical analytics projects using Excel, SQL, and data visualization tools.
+Aspiring data analyst interested in data analysis, business intelligence, and building practical analytics projects.
