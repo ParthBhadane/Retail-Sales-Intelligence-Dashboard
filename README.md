@@ -1,6 +1,7 @@
 # Retail Sales Intelligence Dashboard (Excel)
 
-![Dashboard Preview](dashboard-1.png)
+![Dashboard Preview](Dashboard-1.png)
+![Dashboard Preview](Dashboard-2.png)
 
 ## Project Overview
 
